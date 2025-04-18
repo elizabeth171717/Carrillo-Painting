@@ -4,7 +4,7 @@ import aboutImg2 from "../assets/stairs.jpg";
 import aboutImg3 from "../assets/patio.jpg";
 import Canva from "../assets/canva.gif";
 import HomeImg from "../assets/pinkpaint.jpg";
-import Counter from "../counter/Counter";
+import Counter from "../Counter/Counter";
 import TrustQuoteSection from "../TrustQuoteSection/TrustQuoteSection.jsx";
 import Logo from "../assets/carrillo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
