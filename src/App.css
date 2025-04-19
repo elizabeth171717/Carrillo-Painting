@@ -40,27 +40,17 @@ body{
 nav{
   width: 100%;
   display: flex;
-  padding: 1rem;
+  padding:.75rem .50rem;
   display: flex;
   justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: white;
-  
+  background-color: #ffb703;
+  font-weight: 500;
 }
 
-.company-name{
-  font-weight: bold;
- 
-  color: rgb(8, 8, 153);
-}
 
-.company-phone{
-  font-weight: bold;
-  
-  margin-left: .50rem;
-}
 
 
 /* src/components/HeroSection.css */
@@ -141,7 +131,7 @@ nav{
   overflow: hidden;
   white-space: nowrap;
   background: #f1f1f1;
-  padding: 12px 0;
+  padding: .50rem 0;
   position: relative;
 }
 
@@ -234,7 +224,7 @@ nav{
 
 /* src/components/AboutSection.css */
 .about-section {
-  padding: 7rem 0;
+  padding: 8rem 0;
 
 }
 
@@ -329,7 +319,7 @@ nav{
 
 .services-section{
   width: 100%;
-  padding-bottom: 7rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -386,7 +376,7 @@ nav{
   display: flex;
   flex-direction: column;
  margin: 0 auto;
-padding: 8rem 0;
+padding-top: 8rem;
 
 }
 

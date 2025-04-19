@@ -22,15 +22,11 @@ function HomePage() {
     <div className="main-container">
       <nav>
         <p className="company-name">CARRILLO PAINTING</p>
-        <div className="cons">
-          <a href="https://www.facebook.com/profile.php?id=61569305892397">
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
-          <a href="tel:404-680-7241" className="company-phone">
-            <FontAwesomeIcon icon={faPhone} />
-            404-680-7241
-          </a>
-        </div>
+
+        <a href="tel:404-680-7241" className="company-phone">
+          <FontAwesomeIcon icon={faPhone} />
+          404-680-7241
+        </a>
       </nav>
       <div className="marquee-container">
         <div className="marquee-track">
