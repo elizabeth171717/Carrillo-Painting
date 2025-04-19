@@ -24,7 +24,7 @@ function HomePage() {
         <p className="company-name">CARRILLO PAINTING</p>
 
         <a href="tel:404-680-7241" className="company-phone">
-          <FontAwesomeIcon icon={faPhone} />
+          <FontAwesomeIcon icon={faPhone} style={{ marginRight: ".25rem" }} />
           404-680-7241
         </a>
       </nav>

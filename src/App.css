@@ -162,7 +162,7 @@ nav{
 /* src/components/AboutSection.css */
 .gallery-section {
  
-  padding-top:6rem;
+  padding-top:8rem;
   width: 100%;
 }
 
@@ -200,6 +200,7 @@ nav{
   font-weight: bold;
  background-color: #f7f7f7;
  padding: 1rem;
+ 
 }
 /* animations */
 @keyframes popIn {
@@ -248,7 +249,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   background-color: #333;
   color: white;
 
@@ -306,6 +307,12 @@ nav{
    height: 600px;
   }
 
+  .about-text{
+   
+    padding: 4rem 2rem;
+    
+  
+  }
   
   .about-image img{
    width: 100%;
