@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/fence.jpg";
-import bannerImg from "../assets/movingpaint.gif";
+import bannerImg from "../assets/colorpaints.gif";
 import aboutImg2 from "../assets/stairs.jpg";
 import aboutImg3 from "../assets/patio.jpg";
 import Canva from "../assets/canva.gif";
