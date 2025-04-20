@@ -233,6 +233,13 @@ function HomePage() {
       <footer>
         {" "}
         <p>Copyright &copy;Carrillo Painting. All Rights Reserved.</p>
+        <p>
+          WEBSITE BY:
+          <a href="https://www.facebook.com/liz.ramirez.96155/">
+            {" "}
+            Elizabeth TR
+          </a>
+        </p>
       </footer>
     </div>
   );
