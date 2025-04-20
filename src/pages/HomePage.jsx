@@ -97,7 +97,7 @@ function HomePage() {
               See for yourself why we are the most trusted home remodeling
               company in north Atlanta and the greater metro area by turning to
               us for your next project. We are committed to exceeding your
-              expectations.
+              expectations. Give us a call Today!
             </p>
           </div>
           <div className="about-image slide-in-right">
