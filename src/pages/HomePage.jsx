@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/fence.jpg";
+import bannerImg from "../assets/movingpaint.gif";
 import aboutImg2 from "../assets/stairs.jpg";
 import aboutImg3 from "../assets/patio.jpg";
 import Canva from "../assets/canva.gif";
@@ -31,14 +32,14 @@ function HomePage() {
       <div className="marquee-container">
         <div className="marquee-track">
           <p>
-            Expert Home Painting & Remodeling in Atlanta, GA — Expert Home{" "}
-            Painting & Remodeling in Atlanta, GA — Expert Home Painting &
-            Remodeling in Atlanta, GA —{" "}
+            Home Painting & Remodeling in Atlanta, GA — Home Painting &
+            Remodeling in Atlanta, GA — Home Painting & Remodeling in Atlanta,
+            GA —{" "}
           </p>
           <p>
-            Expert Home Painting & Remodeling in Atlanta, GA — Expert Home
-            Painting & Remodeling in Atlanta, GA — Expert Home Painting &
-            Remodeling in Atlanta, GA —{" "}
+            Home Painting & Remodeling in Atlanta, GA — Home Painting &
+            Remodeling in Atlanta, GA — Home Painting & Remodeling in Atlanta,
+            GA —{" "}
           </p>
         </div>
       </div>
@@ -80,6 +81,10 @@ function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="banner-image">
+        <img src={bannerImg} />
+      </div>
 
       <section className="about-section">
         <div className="about-container">
@@ -207,6 +212,24 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <section className="map-section">
+        <div className="section-title">
+          <h2>Areas We Serve</h2>
+          <p>We proudly serve Brookhaven, Atlanta, and surrounding areas.</p>
+        </div>
+        <div className="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106011.82324945781!2d-84.41077322324303!3d33.86725452553831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5089505f9f565%3A0x851a6587d0c37ec1!2sBrookhaven%2C%20GA!5e0!3m2!1sen!2sus!4v1745158532265!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </section>
+
       <footer>
         {" "}
         <p>Copyright &copy;Carrillo Painting. All Rights Reserved.</p>
