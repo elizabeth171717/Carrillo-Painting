@@ -235,7 +235,7 @@ function HomePage() {
         <p>Copyright &copy;Carrillo Painting. All Rights Reserved.</p>
         <p>
           WEBSITE BY:
-          <a href="https://www.facebook.com/liz.ramirez.96155/">
+          <a href="https://elizabethteresa.pro/">
             {" "}
             Elizabeth TR
           </a>
