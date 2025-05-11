@@ -1,10 +1,10 @@
 import React from "react";
-import aboutImg from "../assets/fence.jpg";
+import aboutImg from "../assets/paintinganimation.gif";
 import bannerImg from "../assets/colorpaints.gif";
 import aboutImg2 from "../assets/stairs.jpg";
-import aboutImg3 from "../assets/patio.jpg";
+import homeRepair from "../assets/repairanimation.gif";
 import Canva from "../assets/canva.gif";
-import HomeImg from "../assets/pinkpaint.jpg";
+import HomeImg from "../assets/remodelinganimation.gif";
 import Counter from "../Counter/Counter";
 import TrustQuoteSection from "../TrustQuoteSection/TrustQuoteSection.jsx";
 import Logo from "../assets/carrillo.jpg";
@@ -69,15 +69,15 @@ function HomePage() {
         <div className="gallery-container">
           <div className="gallery-image">
             <img src={aboutImg} alt="House Fence" />
-            <p>FENCE</p>
+            <p>Home Painting</p>
           </div>
           <div className="gallery-image">
             <img src={HomeImg} alt="Interior house painting" />
-            <p>PAINTING</p>
+            <p>Home Remodeling</p>
           </div>
           <div className="gallery-image">
-            <img src={aboutImg3} alt="House porched renovatade" />
-            <p>PORCH</p>
+            <img src={homeRepair} alt="House porched renovatade" />
+            <p>Home Repair</p>
           </div>
         </div>
       </section>
@@ -235,10 +235,7 @@ function HomePage() {
         <p>Copyright &copy;Carrillo Painting. All Rights Reserved.</p>
         <p>
           WEBSITE BY:
-          <a href="https://www.facebook.com/liz.ramirez.96155/">
-            {" "}
-            Elizabeth TR
-          </a>
+          <a href="https://elizabethteresa.pro/"> Elizabeth TR</a>
         </p>
       </footer>
     </div>
