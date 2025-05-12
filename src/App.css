@@ -184,15 +184,15 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 
 .gallery-image {
   flex: 1;
- 
+  width: 95%;
   opacity: 0;
   transform: rotateX(90deg);
   animation: rotateFadeIn 1s forwards ease-out;
@@ -230,6 +230,7 @@ nav{
 /* responsive */
 @media (min-width: 768px) {
   .gallery-container {
+    width: 90%;
     flex-direction: row;
   }
 }
